@@ -7,7 +7,7 @@ public class Solution {
 
   public static void main(String[] args) {
 
-    int x = 123;
+    int x = 789;
     System.out.println(reverse01(x));
 
   }
