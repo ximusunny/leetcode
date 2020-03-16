@@ -27,4 +27,12 @@ public class Solution {
     return re == x;
   }
 
+  /**
+   * 此方法效率低下、内存消耗较大
+   */
+  private static boolean reverse02(int x) {
+    String str = String.valueOf(x);
+    return str.equals(new StringBuilder(str).reverse().toString());
+  }
+
 }
